@@ -1,0 +1,8 @@
+@import 'card.css';
+
+
+.main__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

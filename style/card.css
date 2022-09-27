@@ -1,0 +1,66 @@
+.card__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card__container {
+    position: relative;
+    display: flex;
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px red solid;
+    border-radius: 10px;
+    background-image: url('../image/anime.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 100%;
+    transition: width 1s , height 1s ease-in-out;
+}
+
+.card__container:hover {
+    width: 150px;
+    height: 250px;
+    background-color: rgb(10, 167, 88);
+    transition: all 1s ease-in-out;
+    background-image: url('../image/anime.gif');
+}
+
+
+.card__number_up {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211, 198, 14);
+    border: 1px rgb(7, 34, 156) solid;
+    top: 10px;
+    left: 8px;
+    font-size: 16px;
+    color: rgb(235, 1, 1);
+}
+
+.card__suit {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211, 198, 14);
+    border: 1px rgb(7, 34, 156) solid;
+    top: 10px;
+    left: 32px;
+    font-size: 16px;
+    color: rgb(235, 1, 1);
+    content: url('../image/крести.png');
+}
+
+.card__image {
+
+}
