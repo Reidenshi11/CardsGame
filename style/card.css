@@ -1,6 +1,7 @@
 .card__wrapper {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 100px 100px 100px 100px 100px;
     align-items: center;
     justify-content: center;
     gap: 5px;
@@ -11,22 +12,16 @@
     display: flex;
     width: 100px;
     height: 200px;
-    background-color: aqua;
+    /* background-color: aqua; */
     border: 1px red solid;
     border-radius: 10px;
-    background-image: url('../image/anime.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto 100%;
     transition: width 1s , height 1s ease-in-out;
 }
 
 .card__container:hover {
     width: 150px;
     height: 250px;
-    background-color: rgb(10, 167, 88);
-    transition: all 1s ease-in-out;
-    background-image: url('../image/anime.gif');
+    /* background-color: rgb(10, 167, 88); */
 }
 
 
@@ -63,4 +58,126 @@
 
 .card__image {
 
+}
+
+.card_1_1 {
+    background-image: url('../image/cards/anime1.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_1:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime1.gif');
+    z-index: 5;
+}
+
+.card_1_2 {
+    background-image: url('../image/cards/anime2.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_2:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime2.gif');
+    z-index: 5;
+}
+.card_1_3 {
+    background-image: url('../image/cards/anime3.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_3:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime3.gif');
+    z-index: 5;
+}
+.card_1_4 {
+    background-image: url('../image/cards/anime4.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_4:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime4.gif');
+    z-index: 5;
+}
+.card_1_5 {
+    background-image: url('../image/cards/anime5.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_5:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime5.gif');
+    z-index: 5;
+}
+.card_1_6 {
+    background-image: url('../image/cards/anime6.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_6:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime6.gif');
+    z-index: 5;
+}
+.card_1_7 {
+    background-image: url('../image/cards/anime7.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_7:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime7.gif');
+    z-index: 5;
+}
+.card_1_8 {
+    background-image: url('../image/cards/anime8.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_8:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime8.gif');
+    z-index: 5;
+}
+.card_1_9 {
+    background-image: url('../image/cards/anime9.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_9:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime9.gif');
+    z-index: 5;
+}
+.card_1_10 {
+    background-image: url('../image/cards/anime10.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card_1_10:hover {
+    transition: all 1s ease-in-out;
+    background-image: url('../image/cards/anime10.gif');
+    z-index: 5;
 }
